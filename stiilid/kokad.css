@@ -1,0 +1,60 @@
+#kokad {
+    width: 100%;
+
+    padding: 1rem .5rem; /* uleval ja all padding, kulg padding */
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 1rem
+}
+
+#kokad a {
+    text-decoration: none;
+}
+
+.kokk-konteiner {
+    padding: 0 1rem;
+}
+
+.kokk {
+    background-color: var(--taust-kaart);
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100px;
+
+    border-radius: 10px;
+
+    box-shadow: 6px 6px 2px var(--vari);
+
+    text-align: center;
+}
+
+.kokk img {
+    width: 50%;
+
+    margin: 0 auto; /* satime pildi keskele */
+
+    padding: .5rem;
+
+   border-radius: 50%;
+}
+
+.kokk p {
+    padding: .1rem .2rem;
+    margin: 0;
+    color: var(--tekst)
+}
+
+.kokk p.luhijutt {
+    font-size: .8rem;
+    color: var(--tekst-detail)
+}
