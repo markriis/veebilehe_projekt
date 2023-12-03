@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  --taust: #313338;
+  --tekst: #fff;
+  --tekst-detail: #c4c4c4;
+  --taust-kaart: #42454b;
+  --vari: #27282c;
+}
+
+* {
+    margin: 0;
+}
+
+
+body{
+    background-image: url("TaustPilt1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.keskel {
+    display: flex;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+
+    flex-direction: column;
+
+    gap: 2rem;
+}
+
+
+#sisu {
+    min-height: calc( 100vh );
+    min-height: 60rvh;
+}
+
+.footer{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: burlywood;
+    color: white;
+    text-align: center;
+ }

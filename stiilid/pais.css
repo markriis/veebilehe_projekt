@@ -15,9 +15,7 @@ header img {
 .vasak, .parem {
     display: flex;
     flex-direction: row;
-
     align-items: center;
-
     height: inherit;
 }
 
@@ -25,21 +23,40 @@ header img {
     justify-content: end;
 }
 
-.parem ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    gap: 1rem;
+:is( .parem, .vasak ) * {
+    padding: 10px;
 }
 
-/* Lingid muudavad varvi, aga me ei soovi seda */
-.parem :is( a, a:visited ) {
-    color: var(--tekst);
-    font-size: 1.6rem;
-    text-transform: capitalize;
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    
+    border: 2px solid black;
+    display: inline;
+    float: center;
+    width: 200px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 40px;
+    opacity: 0.75;
+    padding: 18px 35px;
+    font-size: 20px;
+    background-color: darksalmon;
+    color: black;
+}
+
+ul li a{
     text-decoration: none;
 }
 
-:is( .parem, .vasak ) * {
-    padding: 10px;
+ul li a:link, ul li a:visited {
+    color: black; 
+}
+
+ul li:hover{
+    transition: .15s ease;
+    opacity:1.0
 }
