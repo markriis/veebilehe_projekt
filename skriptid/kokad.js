@@ -17,6 +17,7 @@ for ( let i = 0; i < kokad_list.length; i++ ) {
 
     // Loome vajalikud elemendid naite jargi ja taidame need vastavalt
     let link = document.createElement( 'a' )
+    link.target = '_blank'
     link.href = koka_info.link
 
     let konteiner = document.createElement( 'div' )
