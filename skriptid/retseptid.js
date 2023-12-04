@@ -40,7 +40,7 @@ const retseptid = [ // Kõik retseptid on siin
         nimi : "Gnocchi Al Limone",
         pilt : 'https://i.imgur.com/xfjGBSl.png',
         hinnang : 4.6,
-        tudengisõbralikkus : 4.5, 
+        tudengisõbralikkus : 3.0, 
         koostisosad : [ '1kg jahuseid kartuleid', '1 sidrun (sidrunikoor ja sidrunimahl eraldatud)', '100 grammi riivitud parmigiano reggiano + veel serveerimiseks', '300 grammi jahu', '120 grammi võid', '15 piparmündi lehte', 'Värskelt purustatud pipar' ],
         sammud : [ `Täida pott veega, viska kartulid otse vette ja lase keema, keeda kuni saad lihtsalt
             kahvliga kartulisse torkida`,
@@ -62,7 +62,7 @@ const retseptid = [ // Kõik retseptid on siin
 
     {
         nimi : "Kana Karahi",
-        pilt : 'https://i.imgur.com/ZzzX2I1.png',
+        pilt : 'karahi.jpeg',
         hinnang : 4.7,
         tudengisõbralikkus : 4.2, 
         koostisosad : { 
