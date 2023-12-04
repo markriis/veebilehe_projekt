@@ -8,7 +8,7 @@ header {
 
 header img {
     height: 90px;
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
     border-radius: 20px; 
 }
 
@@ -48,7 +48,6 @@ header ul li{
     
     border: 2px solid black;
     display: inline;
-    float: center;
     width: 200px;
     border-radius: 6px;
     text-align: center;
