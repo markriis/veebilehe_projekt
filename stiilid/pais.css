@@ -28,11 +28,11 @@ header img {
 }
 
 
-ul{
+header ul{
     list-style-type: none;
 }
 
-ul li{
+header ul li{
     
     border: 2px solid black;
     display: inline;
@@ -48,15 +48,15 @@ ul li{
     color: black;
 }
 
-ul li a{
+header ul li a{
     text-decoration: none;
 }
 
-ul li a:link, ul li a:visited {
+header ul li a:link, ul li a:visited {
     color: black; 
 }
 
-ul li:hover{
+header ul li:hover{
     transition: .15s ease;
     opacity:1.0
 }

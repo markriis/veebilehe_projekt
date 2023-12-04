@@ -31,7 +31,7 @@
 
     width: 100px;
 
-    border-radius: 10px;
+    border-radius: var( --ümardus );
 
     box-shadow: 6px 6px 2px var(--vari);
 

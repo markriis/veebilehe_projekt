@@ -1,0 +1,68 @@
+.modal-konteiner {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: #00000080;
+
+    overflow-y: scroll;
+}
+
+.modal {
+    position: static;
+
+    top: 50%;
+    left: 50%;
+
+    width: 80%;
+    min-height: 80%;
+
+    transform: translateX( 12.5% ) translateY( 12.5% );
+
+    min-width: 50%;
+    min-height: 50%;
+
+    background-color: var( --taust-kaart );
+
+    border-radius: var( --ümardus );
+
+    color: var( --tekst-detail );
+
+    padding: 1rem;
+}
+
+.modal .pealis-konteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.modal .pealis-konteiner h2 {
+    justify-self: end;
+    cursor: pointer;
+}
+
+.modal .koostisosad-konteiner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.modal .koostisosa-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal .koostisosa-list li {
+    background-color: unset;
+}
+
+.modal .koostiosade-nimi {
+    text-transform: capitalize;
+}
+
+body:has( .modal-konteiner ) {
+    overflow-y: hidden;
+}

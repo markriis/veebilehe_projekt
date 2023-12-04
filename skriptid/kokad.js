@@ -2,7 +2,7 @@
 const kokad_list = [ 
     { nimi : 'Lorem Ipsum1', pilt : './pildid/kokk1.png', luhijutt : ' consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ', link : '#' },
     { nimi : 'Lorem Ipsum2', pilt : './pildid/kokk1.png', luhijutt : 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n', link : '#' },
-    { nimi : 'Lorem Ipsum3', pilt : './pildid/kokk1.png', luhijutt : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum', link : '#' },
+    { nimi : 'Lorem Ipsum3', pilt : './pildid/kokk1.png', luhijutt : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', link : '#' },
 
 ]
 

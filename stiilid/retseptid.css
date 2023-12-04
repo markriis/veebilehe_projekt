@@ -1,0 +1,56 @@
+#retseptid {
+    display: flex;
+    flex-direction: column;
+}
+
+#retseptid:has( .retsept-konteiner:hover ) > .retsept-konteiner .retsept:not( :hover ) {
+    scale: 0.9;
+}
+
+.retsept-konteiner {
+    padding: .5rem 0;
+}
+
+.retsept {
+    width: 100%;
+    background-color: var( --taust-kaart );
+
+    padding: 1rem;
+    border-radius: var( --ümardus );
+
+    color: #ddd;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 1rem;
+
+    transition: scale 200ms ease-in-out;
+}
+
+.retsept .pilt {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+
+    background-image: var( --pilt );
+    background-size: cover;
+
+    border-radius: var(--ümardus);
+}
+
+.retsept .reiting-tekst {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+
+    color: var( --tekst-detail )
+}
+
+.retsept .reiting {
+    color: var( --tekst )
+}
+
+.retsept .info a {
+    color: var( --tekst );
+}
