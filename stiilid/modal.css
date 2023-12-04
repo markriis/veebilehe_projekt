@@ -4,7 +4,7 @@
     width: 100%;
     height: 100%;
 
-    background-color: #00000080;
+    background-color: #000000b0;
 
     overflow-y: scroll;
 }
@@ -27,7 +27,7 @@
 
     border-radius: var( --ümardus );
 
-    color: var( --tekst-detail );
+    color: var( --tekst );
 
     padding: 1rem;
 }

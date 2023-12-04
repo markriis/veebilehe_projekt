@@ -1,0 +1,36 @@
+.kaart {
+    padding: 10px;
+
+    background-color: var( --taust-kaart );
+    border-radius: var( --ümardus );
+    color: var( --tekst );
+}
+
+.sotsiaalmeedianupud {
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 1rem;
+}
+
+.sotsiaalmeedianupud a {
+    padding: .6rem 1rem;
+    border: 1px solid black;
+
+    font-size: 1.2rem;
+
+    border-radius: var( --ümardus );
+
+    color: white;
+    text-decoration: none;
+}
+
+a.youtube {
+    background-color: red;
+}
+
+a.instagram {
+    background: linear-gradient( 45deg, #5b72e9, #f73c44 );
+}

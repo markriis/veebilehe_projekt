@@ -43,13 +43,17 @@
 
     padding: .5rem;
 
-   border-radius: 50%;
+   border-radius: calc(var(--ümardus) * 2 )
 }
 
-.kokk p {
+.kokk p, .kokk h2 {
     padding: .1rem .2rem;
     margin: 0;
     color: var(--tekst)
+}
+
+a .kokk {
+    color: var( --tekst )
 }
 
 .kokk p.luhijutt {
