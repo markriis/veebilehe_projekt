@@ -22,14 +22,14 @@
 }
 
 .kokk {
-    background-color: var(--taust-kaart);
+    background-color: darksalmon;
     width: fit-content;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-    width: 100px;
+    width: 350px;
 
     border-radius: var( --ümardus );
 
