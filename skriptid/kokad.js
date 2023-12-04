@@ -1,8 +1,8 @@
 // Kokkade info, nimi, pilti allikas ja lühike tutvustus nende kohta
 const kokad_list = [ 
-    { nimi : 'Lorem Ipsum1', pilt : './pildid/kokk1.png', luhijutt : ' consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ', link : '#' },
-    { nimi : 'Lorem Ipsum2', pilt : './pildid/kokk1.png', luhijutt : 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n', link : '#' },
-    { nimi : 'Lorem Ipsum3', pilt : './pildid/kokk1.png', luhijutt : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', link : '#' },
+    { nimi : 'Harold Arató', pilt : './pildid/kokk1.jpeg', luhijutt : 'Tuntud ungari kokk Harold, kes alustas oma kokanduskarjääri Inglismaal, lõi selle lehe 2019. aastal ja siiamaani tegutseb selle nimel, et tudengid saaksid võimalikult odavalt süüa võimalikult head toitu.  ', link : '#' },
+    { nimi : 'Wolfgang Schmidt', pilt : './pildid/kokk2.jpg', luhijutt : 'Austria kokk Wolfgang liitus meie lehega 2022. aastal ja eelnevalt töötas oma sõbra restoraanis Viinis. Ta on suur maiasmokk ja loodab meie kõigiga jagada oma saladusi. ', link : '#' },
+    { nimi : 'Laura Gianna', pilt : './pildid/kokk3.jpg', luhijutt : 'Itaaliast pärit kokk Laura on meie lehe kõige uuem toimetaja ja ta on väga usinalt tööl, et lihtsaid ja odavaid, kuid äärmiselt häid retsepte välja mõelda ja jagada meie kõigiga.', link : '#' },
 
 ]
 
