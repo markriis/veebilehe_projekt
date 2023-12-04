@@ -62,7 +62,7 @@ const retseptid = [ // Kõik retseptid on siin
 
     {
         nimi : "Kana Karahi",
-        pilt : 'https://i.imgur.com/E5qwA0u.jpg',
+        pilt : 'https://i.imgur.com/ZzzX2I1.png',
         hinnang : 4.7,
         tudengisõbralikkus : 4.2, 
         koostisosad : { 
