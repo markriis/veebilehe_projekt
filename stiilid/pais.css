@@ -42,6 +42,7 @@ header img {
 
 header ul{
     list-style-type: none;
+    gap: 1rem;
 }
 
 header ul li{

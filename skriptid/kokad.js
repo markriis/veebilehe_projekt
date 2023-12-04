@@ -1,5 +1,6 @@
 // Kokkade info, nimi, pilti allikas ja lühike tutvustus nende kohta
 const kokad_list = [ 
+    { nimi : 'Aston Randén', pilt : 'https://yt3.googleusercontent.com/ytc/APkrFKYfurXmlq8CV6mfo17vP3sgy07jtO440bhv616BVQ=s176-c-k-c0x00ffffff-no-rj', luhijutt : 'Kodumaine kokk, kes spetsialiseerub odavatele ja maitsvatele toitudele. Aston ühines meiega 2023. aasta alguses.', link : 'https://www.youtube.com/@astonranden2911' },
     { nimi : 'Harold Arató', pilt : './pildid/kokk1.jpeg', luhijutt : 'Tuntud ungari kokk Harold, kes alustas oma kokanduskarjääri Inglismaal, lõi selle lehe 2019. aastal ja siiamaani tegutseb selle nimel, et tudengid saaksid võimalikult odavalt süüa võimalikult head toitu.  ', link : '#' },
     { nimi : 'Wolfgang Schmidt', pilt : './pildid/kokk2.jpg', luhijutt : 'Austria kokk Wolfgang liitus meie lehega 2022. aastal ja eelnevalt töötas oma sõbra restoraanis Viinis. Ta on suur maiasmokk ja loodab meie kõigiga jagada oma saladusi. ', link : '#' },
     { nimi : 'Laura Gianna', pilt : './pildid/kokk3.jpg', luhijutt : 'Itaaliast pärit kokk Laura on meie lehe kõige uuem toimetaja ja ta on väga usinalt tööl, et lihtsaid ja odavaid, kuid äärmiselt häid retsepte välja mõelda ja jagada meie kõigiga.', link : '#' },

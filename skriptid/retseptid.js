@@ -1,7 +1,7 @@
-const retseptid = [
+const retseptid = [ // Kõik retseptid on siin
     {
         nimi : "Tikka Masala",
-        pilt : '../../pildid/toit1.png',
+        pilt : 'https://i.imgur.com/5nauOGs.png',
         hinnang : 4.5,
         tudengisõbralikkus : 4.0, 
         koostisosad : { 
@@ -38,7 +38,7 @@ const retseptid = [
     },
     {
         nimi : "Gnocchi Al Limone",
-        pilt : '../../pildid/toit1.png',
+        pilt : 'https://i.imgur.com/xfjGBSl.png',
         hinnang : 4.6,
         tudengisõbralikkus : 4.5, 
         koostisosad : [ '1kg jahuseid kartuleid', '1 sidrun (sidrunikoor ja sidrunimahl eraldatud)', '100 grammi riivitud parmigiano reggiano + veel serveerimiseks', '300 grammi jahu', '120 grammi võid', '15 piparmündi lehte', 'Värskelt purustatud pipar' ],
@@ -62,7 +62,7 @@ const retseptid = [
 
     {
         nimi : "Kana Karahi",
-        pilt : '../../pildid/toit1.png',
+        pilt : 'https://i.imgur.com/ZzzX2I1.png',
         hinnang : 4.7,
         tudengisõbralikkus : 4.2, 
         koostisosad : { 
@@ -92,8 +92,10 @@ const retseptid = [
     }
 ]
 
+// Lihtsam kasutada ja kirjutada kogu töö vältel
 const loo_element = ( tag_nimi ) => document.createElement( tag_nimi ) // loo_element = document.createElement ei sobi :((((((
 
+// Funktsioon mis loob elemendi, mis sisaldab toidule antud reitingut
 const loo_reiting = ( reiting_number, lisatekst ) => {
     let tähtede_arv = Math.floor( reiting_number + 0.5 )
 
@@ -115,6 +117,7 @@ const loo_reiting = ( reiting_number, lisatekst ) => {
     return vanem
 }
 
+// Funktsioon mis loob akna meie veebilehel, et kuvada retsept
 const loo_modal = ( retsepti_info ) => {
     // uus element mis on kogu lehe peal
     let modal_konteiner = loo_element( 'div' )
@@ -189,11 +192,11 @@ const loo_modal = ( retsepti_info ) => {
     let sammud = retsepti_info.sammud
     
     if ( Array.isArray( sammud ) ) {
-        sammud = { '42' : sammud }
+        sammud = { 'Retsept:' : sammud }
     }
 
     for ( let nimi of Object.keys( sammud ) ) {
-        let list_nimi = nimi === '42' ? undefined : loo_element( 'h3' )
+        let list_nimi = loo_element( 'h3' )
 
         let list_vanem = loo_element( 'ol' )
 
@@ -222,6 +225,7 @@ const loo_modal = ( retsepti_info ) => {
 
 const retseptikogumik = document.getElementById( 'retseptid' )
 
+// Loome antud näite põhjal samasuguse struktuuriga elementide kogumiku iga retsepti jaoks 
 for ( let retseptiobjekt of retseptid ) {
     // <div class="retsept">
     //     <div class="pilt" style="--pilt: url(../../pildid/toit1.png)">
@@ -240,6 +244,8 @@ for ( let retseptiobjekt of retseptid ) {
     //         <a href="#">Loe lisaks</a>
     //     </div>
     // </div>
+
+
     let retseptikonteiner = loo_element( 'div' )
     retseptikonteiner.className = 'retsept-konteiner'
 

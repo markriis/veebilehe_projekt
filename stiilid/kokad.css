@@ -17,10 +17,6 @@
     text-decoration: none;
 }
 
-.kokk-konteiner {
-    padding: 0 1rem;
-}
-
 .kokk {
     background-color: darksalmon;
     width: fit-content;
@@ -36,6 +32,8 @@
     box-shadow: 6px 6px 2px var(--vari);
 
     text-align: center;
+
+    padding: .5rem;
 }
 
 .kokk img {
