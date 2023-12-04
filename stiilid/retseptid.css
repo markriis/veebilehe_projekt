@@ -4,7 +4,7 @@
 }
 
 #retseptid:has( .retsept-konteiner:hover ) > .retsept-konteiner .retsept:not( :hover ) {
-    scale: 0.9;
+    transform: scale( .9 );
 }
 
 .retsept-konteiner {
@@ -25,7 +25,7 @@
 
     gap: 1rem;
 
-    transition: scale 200ms ease-in-out;
+    transition: transform 200ms ease-in-out;
 }
 
 .retsept .pilt {
