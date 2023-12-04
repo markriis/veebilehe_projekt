@@ -1,3 +1,6 @@
+// nimi: kokad.js
+// autor: Mark Riispapp
+
 // Kokkade info, nimi, pilti allikas ja lühike tutvustus nende kohta
 const kokad_list = [ 
     { nimi : 'Aston Randén', pilt : './pildid/astonlogo.jpg', luhijutt : 'Kodumaine kokk, kes spetsialiseerub odavatele ja maitsvatele toitudele. Aston ühines meiega 2023. aasta alguses.', link : 'https://www.youtube.com/@astonranden2911' },

@@ -1,3 +1,6 @@
+// nimi: retseptid.js
+// autor: Mark Riispapp
+
 const retseptid = [ // Kõik retseptid on siin
     {
         nimi : "Tikka Masala",
